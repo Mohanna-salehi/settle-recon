@@ -1,0 +1,11 @@
+{"txn_id":"txn-1001","terminal":"T-001","type":"purchase","amount":100000,"status":"approved","original_txn_id":null,"timestamp":"2026-01-05T10:00:00+03:30"}
+{"txn_id":"txn-1002","terminal":"T-001","type":"purchase","amount":50000,"status":"approved","original_txn_id":null,"timestamp":"2026-01-05T10:05:00+03:30"}
+{"txn_id":"txn-1003","terminal":"T-002","type":"purchase","amount":200000,"status":"approved","original_txn_id":null,"timestamp":"2026-01-05T10:10:00+03:30"}
+{"txn_id":"txn-1004","terminal":"T-002","type":"purchase","amount":1000000,"status":"approved","original_txn_id":null,"timestamp":"2026-01-05T10:15:00+03:30"}
+{"txn_id":"txn-1005","terminal":"T-001","type":"refund","amount":20000,"status":"approved","original_txn_id":"txn-1001","timestamp":"2026-01-05T11:00:00+03:30"}
+{"txn_id":"txn-1006","terminal":"T-002","type":"reverse","amount":200000,"status":"approved","original_txn_id":"txn-1003","timestamp":"2026-01-05T11:05:00+03:30"}
+{"txn_id":"txn-1007","terminal":"T-001","type":"purchase","amount":300000,"status":"declined","original_txn_id":null,"timestamp":"2026-01-05T11:10:00+03:30"}
+{"txn_id":"txn-1008","terminal":"T-002","type":"purchase","amount":400000,"status":"timeout","original_txn_id":null,"timestamp":"2026-01-05T11:15:00+03:30"}
+{"txn_id":"txn-1003","terminal":"T-002","type":"purchase","amount":200000,"status":"approved","original_txn_id":null,"timestamp":"2026-01-05T10:10:00+03:30"}
+{"txn_id":"txn-1009","terminal":"T-001","type":"refund","amount":5000,"status":"approved","original_txn_id":"txn-9999","timestamp":"2026-01-05T11:20:00+03:30"}
+{"txn_id":"txn-1010","terminal":"T-001","type":"reverse","amount":99999,"status":"approved","original_txn_id":"txn-1002","timestamp":"2026-01-05T11:25:00+03:30"}

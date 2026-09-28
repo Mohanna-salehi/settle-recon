@@ -1,0 +1,11 @@
+defaults:
+  percentage_bps: 50
+  fixed_fee: 500
+terminals:
+  T-001:
+    percentage_bps: 30
+    fixed_fee: 300
+  T-002:
+    percentage_bps: 120
+    fixed_fee: 1000
+    max_fee: 50000
